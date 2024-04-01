@@ -17,7 +17,7 @@
 sed -i 's/OpenWrt/CR660X/g' package/base-files/files/bin/config_generate
 
 # Add luci-app-openclash
-svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash
+#svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash
 
 # Modify default theme
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
