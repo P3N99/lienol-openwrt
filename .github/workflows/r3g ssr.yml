@@ -131,7 +131,7 @@ jobs:
 
     - name: Upload OpenWrt Firmware to Release
       id: release
-      uses: ncipollo/release-action@main
+      uses: softprops/action-gh-release@v1
       if: steps.organize.outputs.status == 'success' && env.UPLOAD_RELEASE == 'true' && !cancelled()
       with:
         name: R${{ steps.organize.outputs.release_tag }} for XIAOMI R3G
