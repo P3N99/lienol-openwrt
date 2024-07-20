@@ -20,7 +20,7 @@ env:
   REPO_URL: https://github.com/Lienol/openwrt
   REPO_BRANCH: 22.03
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: configs/r3g_new.config
+  CONFIG_FILE: configs/r3g-0721.config
   DIY_P1_SH: scripts/r3g-1.sh
   DIY_P2_SH: scripts/r3g-2.sh
   UPLOAD_BIN_DIR: false
