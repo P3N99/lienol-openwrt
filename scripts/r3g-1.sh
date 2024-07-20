@@ -29,7 +29,7 @@ echo 'src-git Openclash https://github.com/vernesong/OpenClash' >>feeds.conf.def
 
 cd package
 sed -i 's/OpenWrt/R3G/g'base-files/files/bin/config_generate
-sed -i "s/OpenWrt/P3N9 Build $(TZ=UTC-8 date "+%Y.%m.%d") /g" default-settings/files/zzz-default-settings
+sed -i "s/OpenWrt/Lienol built by P3N99 @ $(TZ=UTC-8 date "+%Y.%m.%d") /g" default-settings/files/zzz-default-settings
 sed -i 's/192.168.1.1/192.168.3.1/g' base-files/files/bin/config_generate
 
 # 替换argon主题
